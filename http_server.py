@@ -1,7 +1,7 @@
 from socket import *
 from random import *
 
-HOST = '10.0.0.7'  # Grab Host
+HOST = 'localhost'  # Grab Host
 PORT = 8002  # Set Port
 # IPv4 and TCP
 server = socket(AF_INET, SOCK_STREAM)
